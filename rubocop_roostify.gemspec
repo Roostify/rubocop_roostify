@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.description = <<-end_description
     Enforces rubocop style consistency across Roostify projects
   end_description
-  spec.homepage = 'http://github.com/roostify/rubocop-roostify='
-  spec.authors = ['Zee Specer', 'Nils Gemeinhardt']
-  spec.email = ['zee@roostify.com', 'git@nilsgemeinhardt.de']
+  spec.homepage = 'http://github.com/roostify/rubocop_roostify'
+  spec.authors = ['Zee Specer']
+  spec.email = ['zee@roostify.com']
   spec.licenses = ['MIT']
 
   spec.version = RuboCop::Roostify::VERSION
