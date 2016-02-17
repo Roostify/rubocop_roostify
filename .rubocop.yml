@@ -1,13 +1,12 @@
 AllCops:
+  # Show full cop name when failing, making it easier to ignore if necessary
   DisplayCopNames: true
+  # Links to the style guide with reasoning behind cop on failure
   DisplayStyleGuide: true
   Exclude:
     - bin/**/*
-    - config/**/*
     - db/**/*
-    - script/**/*
     - vendor/**/*
-    - public/**/*
 
 Style/Documentation:
   Enabled: false
