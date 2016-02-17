@@ -1,0 +1,13 @@
+AllCops:
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+  Exclude:
+    - bin/**/*
+    - config/**/*
+    - db/**/*
+    - script/**/*
+    - vendor/**/*
+    - public/**/*
+
+Style/Documentation:
+  Enabled: false
